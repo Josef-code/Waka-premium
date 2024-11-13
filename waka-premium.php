@@ -28,12 +28,3 @@ require_once __DIR__ . '/app/UserManagement.php';
 (new UserManagement());
 
 
-function my_plugin_enqueue_styles()
-{
-    // Check if we are on the 'register' page
-    if (is_page('register')) {
-        // Enqueue the custom CSS file
-        wp_enqueue_style('my-plugin-custom-style', plugin_dir_url(__FILE__) . 'assets/css/register.css');
-    }
-}
-add_action('wp_enqueue_scripts', 'my_plugin_enqueue_styles');
