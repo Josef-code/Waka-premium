@@ -1,0 +1,22 @@
+.content-restriction-notice {
+  background-color: #023047;
+  color: #ffffff;
+  padding: 10px;
+  align-content: center;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-restriction-notice h2 {
+  font-size: x-large;
+}
+
+.content-restriction-notice button {
+  background-color: #cd1b1b;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
