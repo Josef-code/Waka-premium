@@ -14,7 +14,7 @@ class Waka_Mailer_Lite
 
     public function __construct()
     {
-        $this->mailerLite = new MailerLite(['api_key' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiNTZjNzllZmE5OTE1MjA4YzA3YmRjYzUyZWM2M2RmMmZlZjg4MzU4NmIxM2QwYzBlNWVhMjY2ZDk5NTY2YTViMWFkMWQxNjkzYjUyMTU1MjMiLCJpYXQiOjE3MjY3NDc2ODkuNzA3NjY3LCJuYmYiOjE3MjY3NDc2ODkuNzA3NjcsImV4cCI6NDg4MjQyMTI4OS43MDI0MjgsInN1YiI6IjExMTc4NDciLCJzY29wZXMiOltdfQ.M6ZZmThzgBkmF2GV-5wIgp46hxe6N-ATiDN_z7Zy99g5Z0Rpcdbf6olZFS1oXvHrRJM0jPI8PgTYNi7jZQ4U9rTwtvmkPBmlwjxMfXRSowE_0Ai9MPJFj3o1tJ5IBCur_hZcD2acLH8uCzWvyV-xYvveccc21wtuVyZltl1K0YLElb8RdyWfvRtBjymMI6CKnjrHoWfuGnnCbZF8yqrOxKiOOBegvxcq_w3OJObre-ifGRx21qMaQPyVY-bvnymxhDALNeOcNEU5k-NmRUq0Ws4i0viT3Pi9vkb3rJ829Pn0mju-yk35PxSL_OJRdCKbXusO2et95dOzV_5PTK37RN6Xpot3sz9ww5Jyrpqgox0ytUKxqzN7ZzwLtyMEBKexLbgsa5BhGsQHUHkIljTIG63qp5m9FqdCs4oJPryrJZebheWTelXC44tGITRgztL0Gp1XR6lDnnqunRXGs30Ytl9L7tPKUqm-j_qG93PWbcYnJzraxYiqf5iJrqpI3Y9PLJ1HIADDlOvDjsJ4LSH0H4u8WNfa2TIv3f7qv1g1m9yhOihRmqKjdiiAKIKqTYTUXg45tBMsGaj4Eq4ZGtCMgT5SPkRI9YRvgN4zUFwigCaIPI-sx7JmDtWpdCF79lF8VciIPMaAG4Jswe2SdB8O5tfgaP2SkuQRb9skFv9IJH0']);
+        $this->mailerLite = new MailerLite(['api_key' => '']);
 
     }
 
@@ -61,7 +61,7 @@ class Waka_Mailer_Lite
         $args = [
             'headers' => [
                 'Content-Type' => 'application/json',
-                'Authorization' => 'Bearer ' . 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiNTZjNzllZmE5OTE1MjA4YzA3YmRjYzUyZWM2M2RmMmZlZjg4MzU4NmIxM2QwYzBlNWVhMjY2ZDk5NTY2YTViMWFkMWQxNjkzYjUyMTU1MjMiLCJpYXQiOjE3MjY3NDc2ODkuNzA3NjY3LCJuYmYiOjE3MjY3NDc2ODkuNzA3NjcsImV4cCI6NDg4MjQyMTI4OS43MDI0MjgsInN1YiI6IjExMTc4NDciLCJzY29wZXMiOltdfQ.M6ZZmThzgBkmF2GV-5wIgp46hxe6N-ATiDN_z7Zy99g5Z0Rpcdbf6olZFS1oXvHrRJM0jPI8PgTYNi7jZQ4U9rTwtvmkPBmlwjxMfXRSowE_0Ai9MPJFj3o1tJ5IBCur_hZcD2acLH8uCzWvyV-xYvveccc21wtuVyZltl1K0YLElb8RdyWfvRtBjymMI6CKnjrHoWfuGnnCbZF8yqrOxKiOOBegvxcq_w3OJObre-ifGRx21qMaQPyVY-bvnymxhDALNeOcNEU5k-NmRUq0Ws4i0viT3Pi9vkb3rJ829Pn0mju-yk35PxSL_OJRdCKbXusO2et95dOzV_5PTK37RN6Xpot3sz9ww5Jyrpqgox0ytUKxqzN7ZzwLtyMEBKexLbgsa5BhGsQHUHkIljTIG63qp5m9FqdCs4oJPryrJZebheWTelXC44tGITRgztL0Gp1XR6lDnnqunRXGs30Ytl9L7tPKUqm-j_qG93PWbcYnJzraxYiqf5iJrqpI3Y9PLJ1HIADDlOvDjsJ4LSH0H4u8WNfa2TIv3f7qv1g1m9yhOihRmqKjdiiAKIKqTYTUXg45tBMsGaj4Eq4ZGtCMgT5SPkRI9YRvgN4zUFwigCaIPI-sx7JmDtWpdCF79lF8VciIPMaAG4Jswe2SdB8O5tfgaP2SkuQRb9skFv9IJH0' // Replace with your actual API key
+                'Authorization' => 'Bearer ' . '' // Replace with your actual API key
             ],
         ];
 
