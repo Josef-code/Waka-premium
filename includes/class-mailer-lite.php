@@ -31,25 +31,6 @@ class Waka_Mailer_Lite
             // User is not subscribed, add them
             $subscriberResponse = $this->addSubscriber($email, $name, $groupId);
 
-            // // Check if the response is a string
-            // if (is_string($subscriberResponse)) {
-            //     // Decode the response
-            //     $decodedResponse = json_decode($subscriberResponse, true);
-
-            //     // Check if the body is set and return it
-            //     if (isset($decodedResponse[0]['body'])) {
-            //         return json_encode($decodedResponse[0]['body']);
-            //     } else {
-            //         return json_encode(["error" => "No body found in the response."]);
-            //     }
-            // } else {
-            //     // If the response is already an array, return the body directly
-            //     if (isset($subscriberResponse['body'])) {
-            //         return json_encode($subscriberResponse['body']);
-            //     } else {
-            //         return json_encode(["error" => "No body found in the response."]);
-            //     }
-            // }
         }
     }
 
