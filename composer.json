@@ -1,5 +1,13 @@
 {
     "require": {
-        "stripe/stripe-php": "^16.2"
+        "stripe/stripe-php": "^16.2",
+        "mailerlite/mailerlite-php": "^1.0",
+        "symfony/http-client": "^6.4",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
     }
 }
